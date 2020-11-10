@@ -248,6 +248,57 @@
       </div>
     </section>
 
+    
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $(window).scroll(function () {
+          if ($(".hero").length > 0) {
+            if (Math.round($(window).scrollTop()) > Math.round($(".hero").offset().top)) {
+              $("header").css("padding-top", "100px");
+              $(".nh-navbar").addClass("nh-navbar--sticky");
+            } else {
+              $(".nh-navbar").removeClass("nh-navbar--sticky");
+              $("header").css("padding-top", "0");
+            }
+          }
+        });
+
+        let historyMenu = []
+        let dropdownClass = '.nh-navbar__nav-item-dropdown-'
+        let navLink = '.nh-navbar__nav-link-dropdown'
+        $(navLink).click(function () {
+          let menu = $(this).data('dropdown')
+          historyMenu.push(menu)
+          let screen = 'desktop'
+          if ($(window).width() < 1200) {
+            screen = 'mobile'
+          }
+
+          $(dropdownClass + screen + '.' + menu).toggleClass('d-block')
+          $(navLink + '.' + menu).toggleClass('nh-navbar__nav-link-dropdown--open')
+          if (historyMenu.length > 1) {
+            historyMenu.map((item, index) => {
+              if (item != menu) {
+                $(dropdownClass + screen + '.' + item).removeClass('d-block')
+                $(navLink + '.' + item).removeClass('nh-navbar__nav-link-dropdown--open')
+              }
+            })
+          }
+        })
+
+        $('body').click(function (e) {
+          let className = e.target.className;
+          if (
+            typeof className == 'string' &&
+            className.indexOf('nh-navbar__nav-link-dropdown') == -1
+          ) {
+            $(dropdownClass + 'desktop').removeClass('d-block')
+            $(dropdownClass + 'mobile').removeClass('d-block')
+            $(navLink).removeClass('nh-navbar__nav-link-dropdown--open')
+          }
+        });
+      });
+    </script>
     <section class="hero hero--black-friday20">
       <div class="container">
         <div class="row align-items-start">
