@@ -1,0 +1,26 @@
+<svg id="b1ca0c05-7568-4be3-badd-906e089f14b2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <style>
+      .b8215342-1007-4202-8696-acd33d83322f, .f76efe1f-3505-4558-aa0e-9cfca2069693 {
+        fill: none;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+
+      .b8215342-1007-4202-8696-acd33d83322f {
+        stroke: #00bfa5;
+        stroke-linecap: round;
+      }
+
+      .f76efe1f-3505-4558-aa0e-9cfca2069693 {
+        stroke: #007aff;
+      }
+    </style>
+  </defs>
+  <title>icons</title>
+  <g>
+    <path class="b8215342-1007-4202-8696-acd33d83322f" d="M44.33,28.43V18.69A12.56,12.56,0,0,0,33.19,6.06,12.34,12.34,0,0,0,19.67,18.33v.72a2.5,2.5,0,0,1-2.48,2.5h0a2.5,2.5,0,0,1-2.52-2.5v-.72A17.38,17.38,0,0,1,32,1h0A17.38,17.38,0,0,1,49.33,18.33v10.1"/>
+    <rect class="f76efe1f-3505-4558-aa0e-9cfca2069693" x="9.19" y="28.43" width="45.61" height="34.57" rx="4"/>
+  </g>
+  <path class="b8215342-1007-4202-8696-acd33d83322f" d="M36.42,40.63a4.42,4.42,0,1,0-6.34,4v7.78a1.92,1.92,0,1,0,3.84,0V44.59A4.41,4.41,0,0,0,36.42,40.63Z"/>
+</svg>

@@ -1,0 +1,46 @@
+<svg id="aeb26dc4-e08b-4b73-8af7-d9b3b2c24c6e" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <style>
+      .adcbaacd-1a4c-4994-9074-254f1cd5552b, .af0e3cfd-14d2-4414-af21-4b572a27cfb6, .fdcdffe9-52a7-42d8-96bd-e50e1e22ae78 {
+        fill: none;
+      }
+
+      .adcbaacd-1a4c-4994-9074-254f1cd5552b, .fdcdffe9-52a7-42d8-96bd-e50e1e22ae78 {
+        stroke: #007aff;
+      }
+
+      .ab6b7d0c-c534-4583-bb17-5c084ab146aa, .adcbaacd-1a4c-4994-9074-254f1cd5552b, .af0e3cfd-14d2-4414-af21-4b572a27cfb6, .fdcdffe9-52a7-42d8-96bd-e50e1e22ae78 {
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+
+      .ab6b7d0c-c534-4583-bb17-5c084ab146aa, .af0e3cfd-14d2-4414-af21-4b572a27cfb6 {
+        stroke: #00bfa5;
+      }
+
+      .ab6b7d0c-c534-4583-bb17-5c084ab146aa, .adcbaacd-1a4c-4994-9074-254f1cd5552b, .af0e3cfd-14d2-4414-af21-4b572a27cfb6 {
+        stroke-linecap: round;
+      }
+
+      .ab6b7d0c-c534-4583-bb17-5c084ab146aa {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>icons</title>
+  <g>
+    <rect class="fdcdffe9-52a7-42d8-96bd-e50e1e22ae78" x="1" y="40.73" width="62" height="22.27" rx="4.12"/>
+    <line class="af0e3cfd-14d2-4414-af21-4b572a27cfb6" x1="11" y1="51.86" x2="40" y2="51.86"/>
+    <ellipse class="ab6b7d0c-c534-4583-bb17-5c084ab146aa" cx="51.5" cy="51.86" rx="2.61" ry="2.77"/>
+    <path class="adcbaacd-1a4c-4994-9074-254f1cd5552b" d="M40,28h5.56a7.24,7.24,0,0,1,5.28,2.32L61.86,42"/>
+    <path class="adcbaacd-1a4c-4994-9074-254f1cd5552b" d="M2.15,42l11-11.68A7.24,7.24,0,0,1,18.44,28h5"/>
+  </g>
+  <g>
+    <circle class="af0e3cfd-14d2-4414-af21-4b572a27cfb6" cx="32.01" cy="10.43" r="2.77"/>
+    <path class="af0e3cfd-14d2-4414-af21-4b572a27cfb6" d="M38.27,7.28,40,5.1l-.47-.49L38,3.1l-.47-.48L35.33,4.26a7.86,7.86,0,0,0-1.12-.48L33.87,1H33.2L31.09,1h-.68L30,3.73a6.45,6.45,0,0,0-1.13.44L26.69,2.48,26.2,3,24.69,4.42l-.48.47,1.64,2.22a7.12,7.12,0,0,0-.49,1.14l-2.73.34v.68l0,2.11v.67l2.74.41a7.24,7.24,0,0,0,.44,1.12l-1.7,2.19.47.48L26,17.76l.47.48,2.23-1.64a7.22,7.22,0,0,0,1.15.49l.34,2.72h.67l2.11,0h.68l.41-2.74a6.12,6.12,0,0,0,1.1-.43l2.18,1.69.48-.47,1.51-1.47.49-.47-1.65-2.23a6.88,6.88,0,0,0,.52-1.22l2.67-.34V11.5l0-2.11V8.72L38.68,8.3A7.49,7.49,0,0,0,38.27,7.28Z"/>
+  </g>
+  <g>
+    <line class="af0e3cfd-14d2-4414-af21-4b572a27cfb6" x1="31.72" y1="35.59" x2="31.72" y2="24.25"/>
+    <polyline class="af0e3cfd-14d2-4414-af21-4b572a27cfb6" points="28.61 27.37 31.72 24.25 35.04 27.57"/>
+  </g>
+</svg>

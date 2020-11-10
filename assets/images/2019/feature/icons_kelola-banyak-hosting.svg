@@ -1,0 +1,40 @@
+<svg id="ab3348c9-f675-46d7-b35c-b62b9564daa1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <style>
+      .b6b65183-941a-4b3d-90f2-3b7a79cbc248, .bff9b309-24c8-415a-b3a3-dc7cf52e0c99 {
+        fill: none;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+
+      .bff9b309-24c8-415a-b3a3-dc7cf52e0c99 {
+        stroke: #00bfa5;
+      }
+
+      .b6b65183-941a-4b3d-90f2-3b7a79cbc248 {
+        stroke: #007aff;
+      }
+    </style>
+  </defs>
+  <title>icons</title>
+  <line class="bff9b309-24c8-415a-b3a3-dc7cf52e0c99" x1="37.5" y1="33.24" x2="42.18" y2="41.99"/>
+  <line class="bff9b309-24c8-415a-b3a3-dc7cf52e0c99" x1="31.82" y1="29.91" x2="23.01" y2="30.19"/>
+  <line class="bff9b309-24c8-415a-b3a3-dc7cf52e0c99" x1="38.25" y1="27.09" x2="44.79" y2="20.33"/>
+  <g>
+    <circle class="b6b65183-941a-4b3d-90f2-3b7a79cbc248" cx="12.01" cy="27.83" r="3.48"/>
+    <path class="b6b65183-941a-4b3d-90f2-3b7a79cbc248" d="M5.66,39.15a6.84,6.84,0,0,1-.15-1.37,6.5,6.5,0,0,1,13,0A7,7,0,0,1,18.39,39"/>
+    <circle class="b6b65183-941a-4b3d-90f2-3b7a79cbc248" cx="12.01" cy="30.19" r="11.01"/>
+  </g>
+  <g>
+    <circle class="b6b65183-941a-4b3d-90f2-3b7a79cbc248" cx="46.77" cy="49.64" r="3.48"/>
+    <path class="b6b65183-941a-4b3d-90f2-3b7a79cbc248" d="M40.42,61a6.84,6.84,0,0,1-.14-1.37,6.49,6.49,0,0,1,13,0,6.89,6.89,0,0,1-.11,1.21"/>
+    <circle class="b6b65183-941a-4b3d-90f2-3b7a79cbc248" cx="46.77" cy="51.99" r="11.01"/>
+  </g>
+  <g>
+    <circle class="b6b65183-941a-4b3d-90f2-3b7a79cbc248" cx="51.99" cy="9.65" r="3.48"/>
+    <path class="b6b65183-941a-4b3d-90f2-3b7a79cbc248" d="M45.65,21a6.19,6.19,0,0,1-.15-1.37,6.5,6.5,0,1,1,13,0,6,6,0,0,1-.12,1.2"/>
+    <circle class="b6b65183-941a-4b3d-90f2-3b7a79cbc248" cx="51.99" cy="12.01" r="11.01"/>
+  </g>
+  <circle class="bff9b309-24c8-415a-b3a3-dc7cf52e0c99" cx="35.76" cy="29.91" r="3.76"/>
+</svg>

@@ -1,0 +1,34 @@
+<svg id="edbd0512-fe06-4fb5-a056-099c07b6b96e" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .afc5775f-e4fe-40fc-be10-20be535991d9, .e0318aa8-3907-4bdb-ab91-2d848b62c16e {
+        fill: none;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+
+      .e0318aa8-3907-4bdb-ab91-2d848b62c16e {
+        stroke: #007aff;
+      }
+
+      .afc5775f-e4fe-40fc-be10-20be535991d9 {
+        stroke: #00bfa5;
+      }
+    </style>
+  </defs>
+  <title>icons-42</title>
+  <g>
+    <path class="e0318aa8-3907-4bdb-ab91-2d848b62c16e" d="M32.48,26.26H39C39,16.12,30.49,7.9,20,7.9S1,16.12,1,26.26H7.52"/>
+    <line class="afc5775f-e4fe-40fc-be10-20be535991d9" x1="1" y1="29.86" x2="7.52" y2="29.86"/>
+    <line class="afc5775f-e4fe-40fc-be10-20be535991d9" x1="32.48" y1="29.86" x2="39" y2="29.86"/>
+    <path class="e0318aa8-3907-4bdb-ab91-2d848b62c16e" d="M21.31,27.08l5.52-7.57-8.19,4.81-.24.17a1.87,1.87,0,0,0-.09,2.71,2,2,0,0,0,2.8.1A2,2,0,0,0,21.31,27.08Z"/>
+    <line class="afc5775f-e4fe-40fc-be10-20be535991d9" x1="20" y1="13.9" x2="20" y2="10.08"/>
+    <line class="afc5775f-e4fe-40fc-be10-20be535991d9" x1="28.88" y1="17.43" x2="31.66" y2="14.74"/>
+    <line class="afc5775f-e4fe-40fc-be10-20be535991d9" x1="11.12" y1="17.43" x2="8.34" y2="14.74"/>
+    <line class="afc5775f-e4fe-40fc-be10-20be535991d9" x1="8.15" y1="21.91" x2="5.76" y2="21.08"/>
+    <line class="afc5775f-e4fe-40fc-be10-20be535991d9" x1="15.25" y1="14.8" x2="14.27" y2="12.49"/>
+    <line class="afc5775f-e4fe-40fc-be10-20be535991d9" x1="31.87" y1="21.95" x2="34.26" y2="21.13"/>
+    <line class="afc5775f-e4fe-40fc-be10-20be535991d9" x1="24.78" y1="14.81" x2="25.77" y2="12.5"/>
+  </g>
+</svg>

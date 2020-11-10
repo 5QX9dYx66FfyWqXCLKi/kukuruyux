@@ -1,0 +1,25 @@
+<svg id="b680d381-d7e3-4480-beca-b3c3d7c1374f" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <style>
+      .a1ada035-7cfa-49aa-9dd9-1be4d0641bc7, .f5143073-2c83-48ec-8829-87d567b22f1e {
+        fill: none;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+
+      .a1ada035-7cfa-49aa-9dd9-1be4d0641bc7 {
+        stroke: #007aff;
+      }
+
+      .f5143073-2c83-48ec-8829-87d567b22f1e {
+        stroke: #00bfa5;
+      }
+    </style>
+  </defs>
+  <title>icons</title>
+  <path class="a1ada035-7cfa-49aa-9dd9-1be4d0641bc7" d="M13.12,7.41A31,31,0,1,0,32,1"/>
+  <polyline class="a1ada035-7cfa-49aa-9dd9-1be4d0641bc7" points="4 5.45 13.95 6.93 12.35 17.67"/>
+  <polyline class="f5143073-2c83-48ec-8829-87d567b22f1e" points="32 19.43 32 32 37.84 37.84"/>
+  <circle class="f5143073-2c83-48ec-8829-87d567b22f1e" cx="32" cy="32" r="18.05"/>
+</svg>

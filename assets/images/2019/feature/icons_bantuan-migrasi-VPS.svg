@@ -1,0 +1,28 @@
+<svg id="b8b66ec6-47cc-4cf7-8c79-6c4e956f1f6a" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <style>
+      .e1824220-c6a6-4db8-995b-7e6b05a73d49, .eace0f97-b0f5-40ca-8502-d22050f7f0f0 {
+        fill: none;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+
+      .e1824220-c6a6-4db8-995b-7e6b05a73d49 {
+        stroke: #007aff;
+      }
+
+      .eace0f97-b0f5-40ca-8502-d22050f7f0f0 {
+        stroke: #00bfa5;
+      }
+    </style>
+  </defs>
+  <title>icons</title>
+  <g>
+    <path class="e1824220-c6a6-4db8-995b-7e6b05a73d49" d="M8.16,32.5V61.07A1.94,1.94,0,0,0,10.09,63H53.91a1.94,1.94,0,0,0,1.93-1.93V47.6A4.84,4.84,0,0,0,51,42.76H30.73"/>
+    <path class="e1824220-c6a6-4db8-995b-7e6b05a73d49" d="M55.84,38V16.25L40.59,1H10.09A1.94,1.94,0,0,0,8.16,2.93V22.41A4.84,4.84,0,0,0,13,27.25H34.13"/>
+    <polygon class="eace0f97-b0f5-40ca-8502-d22050f7f0f0" points="40.59 1 55.84 16.25 40.59 16.25 40.59 1"/>
+    <polyline class="e1824220-c6a6-4db8-995b-7e6b05a73d49" points="30.93 24.05 34.13 27.25 30.73 30.64"/>
+    <polyline class="e1824220-c6a6-4db8-995b-7e6b05a73d49" points="33.93 45.96 30.73 42.76 34.13 39.37"/>
+  </g>
+</svg>

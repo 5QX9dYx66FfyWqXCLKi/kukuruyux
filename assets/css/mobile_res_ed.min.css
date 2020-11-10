@@ -1,0 +1,154 @@
+@media only screen and (min-width:960px) and (max-width:962px){.hidden960{display:none}
+    .acc960{margin-left:50px}
+}
+.hosting-price-desktop-res,.show960{display:block}
+.hosting-price-mobile-res{display:none;margin:0 auto}
+.hosting-price-mobile-res th.title-blue{text-align:center!important}
+.hosting-price .hosting-price-mobile-res thead th{height:36px}
+.section-desc-hosting-terbaik .img-responsive{display:block;margin:0 auto!important;width:auto!important;height:87px!important}
+.section-desc-hosting-terbaik .hostindotem-hi,.section-desc-hosting-terbaik .hostindotem-hi.center-hi{display:none}
+.package-item tr td{width:50%}
+.package-item thead tr{padding:0 15px}
+.package-item thead tr.odd{background-color:#f7f7f7}
+.package-item thead tr.even{background-color:#fff}
+.package-item .package-title{font-weight:700;text-align:center;font-size:16px;position:relative}
+.package-item .icn-square{position:absolute;right:15px}
+.package-item .icn-square:after{font-family:FontAwesome;content:'\f196'}
+.package-item .package-header.expand .icn-square:after{font-family:FontAwesome;content:'\f147'}
+.package-item .price{text-align:center!important}
+.package-item .button-depth-container{margin-top:0!important;margin-left:0!important}
+@media only screen and (max-device-width:1024px){.hosting-indonesia.hosting-header h1{font-size:26px!important;font-weight:700!important}
+    .hosting-indonesia.hosting-header p{font-size:14px!important}
+    .hosting-indonesia .col-lg-6,.hosting-indonesia .col-md-6{width:50%!important;display:table-cell!important;vertical-align:middle!important}
+    .hosting-indonesia .arrow-area{display:none!important}
+    .section-desc-hosting-terbaik h2{font-size:26px!important;font-weight:700!important}
+    .section-desc-hosting-terbaik .featured-text{font-size:14px!important;margin-bottom:50px}
+    .section-desc-hosting-terbaik b.featured-title{font-weight:700!important;font-size:18px!important}
+    .section-desc-hosting-terbaik .col-lg-4,.section-desc-hosting-terbaik .col-md-4,.section-desc-hosting-terbaik .col-sm-4{width:33%!important;display:table-cell!important;vertical-align:top}
+    .section-desc-hosting-terbaik .img-responsive{display:block;margin:0 auto!important;width:auto!important;height:94px!important}
+    .section-desc-hosting-terbaik .btn-blue-white,.section-desc-hosting-terbaik .btn-white-black,.section-desc-hosting-terbaik .btn-white-blue{font-size:18px!important;font-family:Montserrat-Regular!important}
+    .hosting-bitninja h1{font-size:24px!important}
+    .hosting-bitninja h2{font-size:16px!important}
+    .hosting-bitninja .vid-play{margin-bottom:60px}
+    .hosting-bitninja .vid-play img{margin:0 auto;height:291px;width:auto}
+    .hosting-bitninja .col-lg-6,.hosting-bitninja .col-md-6{display:table!important;width:100%!important;vertical-align:top}
+    .hosting-bitninja .col-lg-6 .row,.hosting-bitninja .col-md-6 .row{display:table-cell!important;width:33%!important;padding:0 6px!important;text-align:center!important;vertical-align:top!important}
+    .hosting-bitninja .col-lg-6 .row .img-responsive,.hosting-bitninja .col-md-6 .row .img-responsive{height:64px;width:auto;margin:0 auto 10px;display:block}
+    .hosting-bitninja .col-lg-6 .row h4{font-size:20px!important;font-family:Montserrat-Bold!important}
+    .hosting-bitninja .col-md-6 .row p{font-size:14px!important}
+    .hosting-price h3{font-size:24px!important;font-weight:400!important;font-family:Montserrat-Regular!important;width:500px;margin:0 auto;text-align:center}
+    .hosting-price h3 strong{font-size:24px!important;font-family:Montserrat-Bold!important}
+    .hosting-price .btn-blue-white,.hosting-price .btn-white-black,.hosting-price .btn-white-blue{font-size:13px!important}
+    .hosting-price td.price .new-price span{font-size:1em!important}
+    .award-banner-container h2{font-size:26px!important}
+    .award-banner-container .img-responsive{margin:0 auto;display:block;height:162px;width:auto}
+    .support-banner-container .button-depth-container{margin-left:160px!important;margin-top:35px!important}
+}
+@media only screen and (max-device-width:960px){
+
+    .hosting-price-desktop-res{display:none}
+    .hosting-price-mobile-res{display:block;width:610px}
+    .award-banner-container .img-responsive{margin:0 auto;display:block;height:172px;width:auto}
+    .support-banner-container .sosmed-text-640{width:50%!important}
+    .support-banner-container h5.font-m-light{text-align:right!important;width:100%}
+    .support-banner-container .support-banner-desc{display:table!important;vertical-align:middle!important;width:100%;border:none!important}
+    .support-banner-container .support-banner-desc:last-child{padding-bottom:0!important}
+    .support-banner-container .container-wrapper .col-xs-12.support-banner-desc{width:100%!important}
+    .support-banner-container .support-banner-desc h2{text-align:center!important}
+    .support-banner-container .support-banner-desc h2 .font-m-light,.support-banner-container .support-banner-desc h2 b{font-size:30px!important}
+    .support-banner-container .support-banner-desc h2 br{display:none}
+    .support-banner-container .support-banner-desc h2 span{display:inline-block}
+    .support-banner-container .support-banner-desc h2 span:last-child{display:block}
+    .support-banner-container .support-banner-desc .button-depth-container{margin-left:0!important;margin-top:0!important}
+    .support-banner-container .support-banner-desc .float-right{float:none!important}
+    .support-banner-container .support-banner-desc .livechatlink{float:none!important;margin:0 auto!important;height:50px!important;width:200px!important;display:table!important}
+    .support-banner-container .support-banner-desc-mobile{display:none!important}
+}
+@media only screen and (max-device-width:768px){.container{width:748px!important}
+    .hosting-price-desktop-res{display:none}
+    .hosting-price-mobile-res{display:block;width:610px}
+    /*.hosting-indonesia.hosting-header{padding-bottom:30px;padding-top:120px}*/
+    .hosting-indonesia.hosting-header{padding-bottom:30px;}
+    .hosting-indonesia.hosting-header h1{font-size:26px!important;font-weight:400!important}
+    .section-desc-hosting-terbaik .hostindotem-hi{display:table-cell!important}
+    .section-desc-hosting-terbaik .hostindotem-hi.center-hi{display:table!important;width:350px!important;margin:0 auto!important}
+    .section-desc-hosting-terbaik .hostindotem-vi{display:none!important}
+    .hosting-bitninja h1,.hosting-indonesia h1{font-size:26px!important}
+    .hosting-indonesia.hosting-header .promo-img{width:537px;margin:0 auto}
+    .hosting-indonesia .col-lg-6,.hosting-indonesia .col-md-6{display:table!important;width:100%!important}
+    .section-desc-hosting-terbaik .col-lg-4,.section-desc-hosting-terbaik .col-md-4,.section-desc-hosting-terbaik .col-sm-4{width:50%!important}
+    .hosting-bitninja .col-lg-6 .row,.hosting-bitninja .col-md-6 .row{display:table!important;width:320px!important;margin:0 auto 20px!important}
+}
+@media only screen and (max-device-width:640px){.container{width:620px!important}
+    .hosting-price-desktop-res{display:none}
+    .hosting-price-mobile-res{display:block;width:505px}
+    .hosting-indonesia.hosting-header h1{font-size:26px!important;font-weight:400!important}
+    .section-desc-hosting-terbaik .hostindotem-hi{display:table-cell!important}
+    .section-desc-hosting-terbaik .hostindotem-hi.center-hi{display:table!important;width:350px!important;margin:0 auto!important}
+    .section-desc-hosting-terbaik .hostindotem-vi{display:none!important}
+    .support-banner-container .sosmed-text-640{width:100%!important}
+    .support-banner-container h5.font-m-light{text-align:center!important}
+    .support-banner-container .support-banner-desc .button-depth-container{margin-left:0!important;margin-top:0!important;padding-left:0!important;padding-top:0!important}
+    .award-banner-container .img-responsive{margin:0 auto;display:block;height:140px;width:auto}
+}
+@media only screen and (max-device-width:480px){.container{width:460px!important}
+    .hosting-price-desktop-res{display:none}
+    .hosting-price-mobile-res{display:block;width:374px}
+    .section-desc-hosting-terbaik h2{width:270px;text-align:center;margin:0 auto}
+    .section-desc-hosting-terbaik .container p.center-block.featured-text{width:325px}
+    .section-desc-hosting-terbaik b.featured-title{font-weight:400!important}
+    .section-desc-hosting-terbaik .hostindotem-hi,.section-desc-hosting-terbaik .hostindotem-hi.center-hi{display:none!important}
+    .section-desc-hosting-terbaik .hostindotem-vi{display:table-cell!important}
+    .section-desc-hosting-terbaik .col-lg-4,.section-desc-hosting-terbaik .col-md-4,.section-desc-hosting-terbaik .col-sm-4{width:100%!important;padding-right:70px;padding-left:70px}
+    .hosting-bitninja .container{padding-left:78px!important;padding-right:78px!important}
+    .hosting-bitninja h1{width:250px;text-align:center;margin:0 auto!important}
+    .hosting-bitninja .col-lg-6 .row,.hosting-bitninja .col-md-6 .row{display:table!important;width:100%!important;margin:0 auto 20px!important}
+    .hosting-bitninja .col-lg-6 .row .img-responsive,.hosting-bitninja .col-md-6 .row .img-responsive{margin:0 auto 15px!important}
+    .section-desc-hosting-terbaik .img-responsive{display:block;margin:0 auto!important;width:auto!important;a
+    height:84px!important}
+    .hosting-indonesia.hosting-header .promo-img{width:407px;margin:0 auto}
+    .hosting-bitninja .vid-play img{height:191px!important}
+    .hosting-price h3{width:320px}
+    .hosting-price h3 strong:first-child{display:block}
+    .award-banner-container .row{width:80%}
+}
+@media only screen and (max-device-width:414px){.container{width:100%!important}
+    .hosting-price-desktop-res{display:none}
+    .hosting-price-mobile-res{display:block;width:330px}
+    .hosting-indonesia.hosting-header h1{font-size:26px!important;font-weight:400!important;line-height:34px!important;width:220px!important}
+    .hosting-header p{width:335px}
+    .section-desc-hosting-terbaik .hostindotem-hi,.section-desc-hosting-terbaik .hostindotem-hi.center-hi{display:none!important}
+    .section-desc-hosting-terbaik .hostindotem-vi{display:table-cell!important}
+    .hosting-indonesia.hosting-header .promo-img{width:306px}
+    .hosting-bitninja .container{padding-left:25px!important;padding-right:25px!important}
+}
+@media only screen and (max-device-width:375px){.container{width:100%!important}
+    .hosting-price-desktop-res{display:none}
+    .hosting-price-mobile-res{display:block;width:330px}
+    .hosting-bitninja .container{padding-left:0!important;padding-right:0!important}
+    .section-desc-hosting-terbaik .hostindotem-hi,.section-desc-hosting-terbaik .hostindotem-hi.center-hi{display:none!important}
+    .section-desc-hosting-terbaik .hostindotem-vi{display:table-cell!important}
+    .section-desc-hosting-terbaik .col-lg-4,.section-desc-hosting-terbaik .col-md-4,.section-desc-hosting-terbaik .col-sm-4{width:100%!important;padding-right:20px;padding-left:20px}
+    .award-banner-container .row{width:100%}
+}
+@media only screen and (max-device-width:360px){.container{width:100%!important}
+    .hosting-price-desktop-res{display:none}
+    .hosting-price-mobile-res{display:block;width:330px}
+    .hosting-header p{width:100%}
+    .section-desc-hosting-terbaik .hostindotem-hi,.section-desc-hosting-terbaik .hostindotem-hi.center-hi{display:none!important}
+    .section-desc-hosting-terbaik .hostindotem-vi{display:table-cell!important}
+    .section-desc-hosting-terbaik .col-lg-4,.section-desc-hosting-terbaik .col-md-4,.section-desc-hosting-terbaik .col-sm-4{width:100%!important;padding-right:20px;padding-left:20px}
+    .award-banner-container .row{width:100%}
+}
+@media only screen and (max-device-width:320px){.container{width:100%!important}
+    .hosting-price-desktop-res{display:none}
+    .hosting-price-mobile-res{display:block;width:308px}
+    .row{margin-right:-5px!important;margin-left:-5px!important}
+    .ebook-promo{padding-left:15px!important}
+    .hosting-header p{width:100%!important}
+    .hosting-indonesia.hosting-header .promo-img,.hosting-price h3,.section-desc-hosting-terbaik .container p.center-block.featured-text{width:100%}
+    .section-desc-hosting-terbaik .hostindotem-hi,.section-desc-hosting-terbaik .hostindotem-hi.center-hi{display:none!important}
+    .section-desc-hosting-terbaik .hostindotem-vi{display:table-cell!important}
+    .hosting-price h3 strong{font-weight:400!important}
+    .hosting-bitninja .vid-play img{height:160px!important}
+}
