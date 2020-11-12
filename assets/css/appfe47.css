@@ -21889,6 +21889,17 @@ header {
     }
 }
 
+.block-black-friday20__left_prodak {
+    padding: 20px 0 20px 45px;
+    text-align: center
+}
+
+@media screen and (max-width:450px) {
+    .block-black-friday20__left_prodak {
+        padding: 30px 25px
+    }
+}
+
 .block-black-friday20__left--image {
     background-size: contain;
     background-repeat: no-repeat;
@@ -21897,6 +21908,19 @@ header {
 
 .block-black-friday20__right {
     padding: 85px
+}
+
+.block-black-friday20__right_prodak {
+    padding: 15px
+}
+
+.block-black-friday20__right--title_prodak {
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left
 }
 
 .block-black-friday20__right--title {
