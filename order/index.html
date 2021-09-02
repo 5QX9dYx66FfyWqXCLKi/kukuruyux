@@ -425,7 +425,7 @@
         <% if( ! _oData.nProductInCart ) { %>
         <a href="#" class="btn btn-success add-to-cart-btn btn-block"><span class="add-to-cart-btn-text">Tambahkan</span> <i class="fa fa-shopping-cart"></i></a>
         <% } else { %>
-        <a href="#" class="btn btn-success add-to-cart-btn btn-block"><span class="add-to-cart-btn-text">Update Order</span> <i class="fa fa-shopping-cart"></i> </a>
+        <a href="#" class="btn btn-success add-to-cart-btn btn-block"><span class="add-to-cart-btn-text">Tambahkan</span> <i class="fa fa-shopping-cart"></i> </a>
         <% }%>
     </script>
     <!-- Sidebar Categories.↳ &#8627;-->
@@ -560,7 +560,7 @@
             </div>
             <div class="col-sm-12 col-md-4">
                 <% if(_oData.oCurrentProductData.price) { %>
-                <h4>Price </h4>
+                <h4>Harga </h4>
                 <h3 class="product-price mb-3">
                     <%- _oData.oCurrentProductData.formattedPrice %>
                     <% if(_oData.oCurrentProductData.hasAddonPrice){ %>
