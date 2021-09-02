@@ -423,7 +423,7 @@
     <!-- Add for Order button. -->
     <script type="text/template" class="add-to-cart-btn-template">
         <% if( ! _oData.nProductInCart ) { %>
-        <a href="#" class="btn btn-success add-to-cart-btn btn-block"><span class="add-to-cart-btn-text">Tambahkan untuk Pesanan</span> <i class="fa fa-shopping-cart"></i></a>
+        <a href="#" class="btn btn-success add-to-cart-btn btn-block"><span class="add-to-cart-btn-text">Tambahkan</span> <i class="fa fa-shopping-cart"></i></a>
         <% } else { %>
         <a href="#" class="btn btn-success add-to-cart-btn btn-block"><span class="add-to-cart-btn-text">Update Order</span> <i class="fa fa-shopping-cart"></i> </a>
         <% }%>
@@ -480,7 +480,7 @@
                     </h4>
                     <% } %>
                     <% if(listItem.price && !listItem.outOfStock) { %>
-                    <a tabindex="0" data-placement="top" data-toggle="popover" title="Masukan ke Keranjang - <%- listItem.name %>" data-productindex="<%- listItem.index %>" class="btn btn-success btn-block add-to-cart-btn-grid-item grid-product-id-<%- listItem.index %>"><i class="fa fa-shopping-cart"></i> <span class="add-to-cart-btn-text-grid-item">Tambahkan untuk Pesanan</span> </a>
+                    <a tabindex="0" data-placement="top" data-toggle="popover" title="Masukan ke Keranjang - <%- listItem.name %>" data-productindex="<%- listItem.index %>" class="btn btn-success btn-block add-to-cart-btn-grid-item grid-product-id-<%- listItem.index %>"><i class="fa fa-shopping-cart"></i> <span class="add-to-cart-btn-text-grid-item">Tambahkan</span> </a>
                     <% } else if(listItem.outOfStock) { %>
                     <button class="btn btn btn-warning disabled btn-block" disabled aria-hidden="true">Out of Stock</button>
                     <% } else { %>

@@ -272,7 +272,7 @@ th.center-align {
   -moz-border-radius: 4px;
   border-radius: 4px;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 2px;
 }
 
 .thumb-holder.lw-image-broken {
@@ -368,7 +368,7 @@ img.lw-loader {
 
 @media (min-width: 0px) {
   .product-item {
-    width: 100%;
+    width: 47%;
   }
 }
 @media (min-width: 768px) {
@@ -386,7 +386,7 @@ img.lw-loader {
 }
 @media (min-width: 1481px) {
   .product-item {
-    width: 32%;
+    width: 23%;
     max-width: 400px;
   }
 }
@@ -447,7 +447,7 @@ img.lw-loader {
   color: #c80000;
 }
 #productsContainer .product-price {
-  font-size: 130%;
+  font-size: 100%;
 }
 
 /* Product summery */
