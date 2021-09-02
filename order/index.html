@@ -668,7 +668,7 @@
         --------------------------
         Item Price  : <%- _oData.fnMisc.formatAmount(listItemProduct.price + totalAddonPrice) %> <% if(listItemProduct.additionalShippingCharge) { var itemShippingCharges = listItemProduct.calculateShipping();  itemTotal += itemShippingCharges; %>
         Shipping    : <%- _oData.fnMisc.formatAmount(itemShippingCharges) %><% } %> <% if(listItemProduct.taxPercentage || _oData.configOptions.taxPercentage) { var itemTax = listItemProduct.calculateTax(totalAddonPrice);  itemTotal += itemTax; %>
-        Tax         : <%- _oData.fnMisc.formatAmount(itemTax) %> <% } %>
+        Pajak         : <%- _oData.fnMisc.formatAmount(itemTax) %> <% } %>
         Qty         : <%- listItem.qty %>
         --------------------------
         Item Total  :<%- _oData.fnMisc.formatAmount(itemTotal *  listItem.qty) %>
