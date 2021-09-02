@@ -374,7 +374,7 @@
                     <% } %>
                 </div>
                 <div class="clear"></div>
-                <div><strong><%- _oData.cartStats.totalItems %></strong> item(s) of <%- _oData.fnMisc.formatAmount(_oData.cartStats.subTotal) %></div>
+                <div><strong><%- _oData.cartStats.totalItems %></strong> barang <%- _oData.fnMisc.formatAmount(_oData.cartStats.subTotal) %></div>
                 <div>
                     <%
                     var fullTotal = _oData.cartStats.subTotal;
@@ -416,7 +416,7 @@
     <!-- Shopping Cart button. -->
     <script type="text/template" class="shopping-cart-btn-template">
         <a title="Items ready for Order" class="btn btn-danger show-shopping-cart-btn btn-block btn-lg" href="#/shopping-cart/uid-show">
-            <i class="fab fa-whatsapp"></i> <strong><%- _oData.cartStats.totalItems %></strong> item(s) of <%- _oData.cartStats.amountFormatted %>
+            <i class="fab fa-whatsapp"></i> <strong><%- _oData.cartStats.totalItems %></strong> barang <%- _oData.cartStats.amountFormatted %>
         </a>
     </script>
     <!-- /Shopping Cart button. -->
@@ -674,7 +674,7 @@
         Item Total  :<%- _oData.fnMisc.formatAmount(itemTotal *  listItem.qty) %>
         --------------------------
         <% }); } %>
-        <%- _oData.cartStats.totalItems %> item(s) of <%- _oData.fnMisc.formatAmount(_oData.cartStats.subTotal) %><% var fullTotal = _oData.cartStats.subTotal; if( fullTotal && _oData.cartStats.totalShippingCharges ) { fullTotal += _oData.cartStats.totalShippingCharges; %>
+        <%- _oData.cartStats.totalItems %> barang <%- _oData.fnMisc.formatAmount(_oData.cartStats.subTotal) %><% var fullTotal = _oData.cartStats.subTotal; if( fullTotal && _oData.cartStats.totalShippingCharges ) { fullTotal += _oData.cartStats.totalShippingCharges; %>
             Total Pengiriman  : <%- _oData.fnMisc.formatAmount( _oData.cartStats.totalShippingCharges ) %> <% } %> <% if( _oData.cartStats.totalTaxes ) { fullTotal += _oData.cartStats.totalTaxes; %>
             Pajak       : <%- _oData.fnMisc.formatAmount( _oData.cartStats.totalTaxes ) %> <% } %>
         --------------------------
@@ -722,7 +722,7 @@
             // set currency symbol
             currencySymbol: "Rp ",
             // currency symbol
-            currency: "IDR",
+            currency: "",
             // checkout methods
             checkoutMethods: {
                 orderByWhatsApp: {
