@@ -666,7 +666,7 @@ countIndex ++; %>
 var listOptionValueDetails = _.findWhere(listItemProduct.productOptions[listItemOptionKey].optionValues,{value:listItemOption.value}); %> <% if(listOptionValueDetails.addonPrice) { totalAddonPrice = totalAddonPrice + listOptionValueDetails.addonPrice; itemTotal += listOptionValueDetails.addonPrice; %>
 <%- listItemOption.optionTitle %> - <%- listItemOption.name %> (+ <%- listOptionValueDetails.addonPriceFormatted %>)
 <% } else if(listItemOption.name) %> <%- listItemOption.optionTitle %> - <%- listItemOption.name %> <% }); } %>
---------------------------
+==========================
 Harga      : <%- _oData.fnMisc.formatAmount(listItemProduct.price + totalAddonPrice) %> <% if(listItemProduct.additionalShippingCharge) { var itemShippingCharges = listItemProduct.calculateShipping();  itemTotal += itemShippingCharges; %>
 Pengiriman : <%- _oData.fnMisc.formatAmount(itemShippingCharges) %><% } %> <% if(listItemProduct.taxPercentage || _oData.configOptions.taxPercentage) { var itemTax = listItemProduct.calculateTax(totalAddonPrice);  itemTotal += itemTax; %>
 Pajak      : <%- _oData.fnMisc.formatAmount(itemTax) %> <% } %>
