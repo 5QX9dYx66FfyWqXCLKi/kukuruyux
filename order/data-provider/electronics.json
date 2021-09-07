@@ -5,24 +5,24 @@
       "id": "cat_5dc6d5ec221e0ba1be751b742",
       "categories": [
         {
-          "name": "Cell Phones",
+          "name": "Jamu",
           "id": "cat_5dc6d5ec231e0ba1be751b74",
           "categories": [
             {
-              "name": "Apple",
+              "name": "PIL",
               "id": "cat_5dc6d5ec231e6ba5be751b74",
               "products": [
                 {
-                  "name": "Apple iPhone XR",
+                  "name": "MASTER GLOW",
                   "id": "prod_5dc6d5eccf20d66af5151459",
                   "active": true,
                   "out_of_stock": false,
-                  "thumbnail_path": "https://m.media-amazon.com/images/I/41ndBTiQIyL._AC_.jpg",
+                  "thumbnail_path": "https://jamubintangemas.com/image/master-glow/master-glow.png",
                   "additional_shipping_charge": "62.15",
                   "tax_percentage": "13.84",
-                  "price": "379.99",
+                  "price": "85000",
                   "old_price": "",
-                  "details_link": null,
+                  "details_link": "https://jamubintangemas.com/master-glow.html",
                   "details": "",
                   "options": [
                     {
