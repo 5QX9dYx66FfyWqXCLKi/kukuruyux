@@ -643,17 +643,17 @@ ORDERAN : <%- _oData.orderId %>
 
 **************************
 
-Kode# : <%- _oData.orderId %>
+Kode#  : <%- _oData.orderId %>
 Type   : <%- _oData.selectedOrderType %><%- _oData.formDetails.table_number ? ("\nTable#       :" +_oData.formDetails.table_number) : null %>
 
 --------------------------
 Detail Pelanggan
 --------------------------
 <%- _oData.formDetails.fname ? ('Name   : ' + _oData.formDetails.fname) : null %>
-<%- _oData.formDetails.email ? ("Email  : " + _oData.formDetails.email ): null %><%- _oData.formDetails.mobile_number ? ("\nMobile          : " +_oData.formDetails.mobile_number) : null %><%- _oData.formDetails.add ? ("\nStreet          : " +_oData.formDetails.add) : null %><%- _oData.formDetails.city ? ("\nCity            : " +_oData.formDetails.city) : null %><%- _oData.formDetails.zip ? ("\nZip/Postal Code : " +_oData.formDetails.zip) : null %><%- _oData.formDetails.country ? ("\nCountry         : " +_oData.formDetails.country) : null %><%- _oData.formDetails.message ? ("\n\n--------------------------\nMessage/Instructions:\n" +_oData.formDetails.message) : null %>
+<%- _oData.formDetails.email ? ("Email  : " + _oData.formDetails.email ): null %><%- _oData.formDetails.mobile_number ? ("\nMobile : " +_oData.formDetails.mobile_number) : null %><%- _oData.formDetails.add ? ("\nStreet          : " +_oData.formDetails.add) : null %><%- _oData.formDetails.city ? ("\nCity            : " +_oData.formDetails.city) : null %><%- _oData.formDetails.zip ? ("\nZip/Postal Code : " +_oData.formDetails.zip) : null %><%- _oData.formDetails.country ? ("\nCountry         : " +_oData.formDetails.country) : null %><%- _oData.formDetails.message ? ("\n\n--------------------------\nMessage/Instructions:\n" +_oData.formDetails.message) : null %>
 
 --------------------------
-Order Detail
+Detail Order
 --------------------------
 <% if( _oData.cartProductsCollection.length > 0 ) {
 var countIndex = 0;
@@ -675,14 +675,15 @@ Qty        : <%- listItem.qty %>
 Item Total : <%- _oData.fnMisc.formatAmount(itemTotal *  listItem.qty) %>
 --------------------------
 <% }); } %>
-<%- _oData.cartStats.totalItems %> Barang <%- _oData.fnMisc.formatAmount(_oData.cartStats.subTotal) %><% var fullTotal = _oData.cartStats.subTotal; if( fullTotal && _oData.cartStats.totalShippingCharges ) { fullTotal += _oData.cartStats.totalShippingCharges; %>
-Total Shipping  : <%- _oData.fnMisc.formatAmount( _oData.cartStats.totalShippingCharges ) %> <% } %> <% if( _oData.cartStats.totalTaxes ) { fullTotal += _oData.cartStats.totalTaxes; %>
-Taxes      : <%- _oData.fnMisc.formatAmount( _oData.cartStats.totalTaxes ) %> <% } %>
+<%- _oData.cartStats.totalItems %> Barang   @ <%- _oData.fnMisc.formatAmount(_oData.cartStats.subTotal) %><% var fullTotal = _oData.cartStats.subTotal; if( fullTotal && _oData.cartStats.totalShippingCharges ) { fullTotal += _oData.cartStats.totalShippingCharges; %>
+Pengiriman : <%- _oData.fnMisc.formatAmount( _oData.cartStats.totalShippingCharges ) %> <% } %> <% if( _oData.cartStats.totalTaxes ) { fullTotal += _oData.cartStats.totalTaxes; %>
+Pajak      : <%- _oData.fnMisc.formatAmount( _oData.cartStats.totalTaxes ) %> <% } %>
 --------------------------
-Total Amount Payable
-<%- _oData.fnMisc.fullFormatAmount(fullTotal) %>
+
+Total Orderan : <%- _oData.fnMisc.fullFormatAmount(fullTotal) %>
+
     
-Thank you
+Terima Kasih
 ```
 </script>
     <!-- /Shopping Cart. -->
