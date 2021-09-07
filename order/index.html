@@ -638,21 +638,22 @@
     <!-- WhatsApp order template -->
 <script type="text/template" class="whatsapp-order-template">
 ```
-New Order @ <%- _oData.configOptions.storeName %>
+ORDERAN : <%- _oData.orderId %>
+@ <%- _oData.configOptions.storeName %>
 
 **************************
 
-Order#      : <%- _oData.orderId %>
-Order Type  : <%- _oData.selectedOrderType %><%- _oData.formDetails.table_number ? ("\nTable#       :" +_oData.formDetails.table_number) : null %>
+Kode# : <%- _oData.orderId %>
+Type   : <%- _oData.selectedOrderType %><%- _oData.formDetails.table_number ? ("\nTable#       :" +_oData.formDetails.table_number) : null %>
 
 --------------------------
-Customer Details
+Detail Pelanggan
 --------------------------
-<%- _oData.formDetails.fname ? ('Name            : ' + _oData.formDetails.fname) : null %>
-<%- _oData.formDetails.email ? ("Email           : " + _oData.formDetails.email ): null %><%- _oData.formDetails.mobile_number ? ("\nMobile          : " +_oData.formDetails.mobile_number) : null %><%- _oData.formDetails.add ? ("\nStreet          : " +_oData.formDetails.add) : null %><%- _oData.formDetails.city ? ("\nCity            : " +_oData.formDetails.city) : null %><%- _oData.formDetails.zip ? ("\nZip/Postal Code : " +_oData.formDetails.zip) : null %><%- _oData.formDetails.country ? ("\nCountry         : " +_oData.formDetails.country) : null %><%- _oData.formDetails.message ? ("\n\n--------------------------\nMessage/Instructions:\n" +_oData.formDetails.message) : null %>
+<%- _oData.formDetails.fname ? ('Name   : ' + _oData.formDetails.fname) : null %>
+<%- _oData.formDetails.email ? ("Email  : " + _oData.formDetails.email ): null %><%- _oData.formDetails.mobile_number ? ("\nMobile          : " +_oData.formDetails.mobile_number) : null %><%- _oData.formDetails.add ? ("\nStreet          : " +_oData.formDetails.add) : null %><%- _oData.formDetails.city ? ("\nCity            : " +_oData.formDetails.city) : null %><%- _oData.formDetails.zip ? ("\nZip/Postal Code : " +_oData.formDetails.zip) : null %><%- _oData.formDetails.country ? ("\nCountry         : " +_oData.formDetails.country) : null %><%- _oData.formDetails.message ? ("\n\n--------------------------\nMessage/Instructions:\n" +_oData.formDetails.message) : null %>
 
 --------------------------
-Order Details
+Order Detail
 --------------------------
 <% if( _oData.cartProductsCollection.length > 0 ) {
 var countIndex = 0;
@@ -666,17 +667,17 @@ var listOptionValueDetails = _.findWhere(listItemProduct.productOptions[listItem
 <%- listItemOption.optionTitle %> - <%- listItemOption.name %> (+ <%- listOptionValueDetails.addonPriceFormatted %>)
 <% } else if(listItemOption.name) %> <%- listItemOption.optionTitle %> - <%- listItemOption.name %> <% }); } %>
 --------------------------
-Item Price  : <%- _oData.fnMisc.formatAmount(listItemProduct.price + totalAddonPrice) %> <% if(listItemProduct.additionalShippingCharge) { var itemShippingCharges = listItemProduct.calculateShipping();  itemTotal += itemShippingCharges; %>
-Shipping    : <%- _oData.fnMisc.formatAmount(itemShippingCharges) %><% } %> <% if(listItemProduct.taxPercentage || _oData.configOptions.taxPercentage) { var itemTax = listItemProduct.calculateTax(totalAddonPrice);  itemTotal += itemTax; %>
-Tax         : <%- _oData.fnMisc.formatAmount(itemTax) %> <% } %>
-Qty         : <%- listItem.qty %>
+Harga      : <%- _oData.fnMisc.formatAmount(listItemProduct.price + totalAddonPrice) %> <% if(listItemProduct.additionalShippingCharge) { var itemShippingCharges = listItemProduct.calculateShipping();  itemTotal += itemShippingCharges; %>
+Pengiriman : <%- _oData.fnMisc.formatAmount(itemShippingCharges) %><% } %> <% if(listItemProduct.taxPercentage || _oData.configOptions.taxPercentage) { var itemTax = listItemProduct.calculateTax(totalAddonPrice);  itemTotal += itemTax; %>
+Pajak      : <%- _oData.fnMisc.formatAmount(itemTax) %> <% } %>
+Qty        : <%- listItem.qty %>
 --------------------------
-Item Total  :<%- _oData.fnMisc.formatAmount(itemTotal *  listItem.qty) %>
+Item Total : <%- _oData.fnMisc.formatAmount(itemTotal *  listItem.qty) %>
 --------------------------
 <% }); } %>
-<%- _oData.cartStats.totalItems %> item(s) of <%- _oData.fnMisc.formatAmount(_oData.cartStats.subTotal) %><% var fullTotal = _oData.cartStats.subTotal; if( fullTotal && _oData.cartStats.totalShippingCharges ) { fullTotal += _oData.cartStats.totalShippingCharges; %>
+<%- _oData.cartStats.totalItems %> Barang <%- _oData.fnMisc.formatAmount(_oData.cartStats.subTotal) %><% var fullTotal = _oData.cartStats.subTotal; if( fullTotal && _oData.cartStats.totalShippingCharges ) { fullTotal += _oData.cartStats.totalShippingCharges; %>
 Total Shipping  : <%- _oData.fnMisc.formatAmount( _oData.cartStats.totalShippingCharges ) %> <% } %> <% if( _oData.cartStats.totalTaxes ) { fullTotal += _oData.cartStats.totalTaxes; %>
-Taxes       : <%- _oData.fnMisc.formatAmount( _oData.cartStats.totalTaxes ) %> <% } %>
+Taxes      : <%- _oData.fnMisc.formatAmount( _oData.cartStats.totalTaxes ) %> <% } %>
 --------------------------
 Total Amount Payable
 <%- _oData.fnMisc.fullFormatAmount(fullTotal) %>
