@@ -649,8 +649,8 @@ Type   : <%- _oData.selectedOrderType %><%- _oData.formDetails.table_number ? ("
 --------------------------
 Detail Pelanggan
 --------------------------
-<%- _oData.formDetails.fname ? ('Name   : ' + _oData.formDetails.fname) : null %>
-<%- _oData.formDetails.email ? ("Email  : " + _oData.formDetails.email ): null %><%- _oData.formDetails.mobile_number ? ("\nWA    : " +_oData.formDetails.mobile_number) : null %><%- _oData.formDetails.add ? ("\nAlamat   : " +_oData.formDetails.add) : null %><%- _oData.formDetails.city ? ("\nKota    : " +_oData.formDetails.city) : null %><%- _oData.formDetails.zip ? ("\nZip/Kode Pos : " +_oData.formDetails.zip) : null %><%- _oData.formDetails.country ? ("\nCountry : " +_oData.formDetails.country) : null %><%- _oData.formDetails.message ? ("\n\n--------------------------\nPesan Pelanggan:\n" +_oData.formDetails.message) : null %>
+<%- _oData.formDetails.fname ? ('Nama   : ' + _oData.formDetails.fname) : null %>
+<%- _oData.formDetails.email ? ("Email  : " + _oData.formDetails.email ): null %><%- _oData.formDetails.mobile_number ? ("\nWA     : " +_oData.formDetails.mobile_number) : null %><%- _oData.formDetails.add ? ("\nAlamat   : " +_oData.formDetails.add) : null %><%- _oData.formDetails.city ? ("\nKota    : " +_oData.formDetails.city) : null %><%- _oData.formDetails.zip ? ("\nZip/Kode Pos : " +_oData.formDetails.zip) : null %><%- _oData.formDetails.country ? ("\nCountry : " +_oData.formDetails.country) : null %><%- _oData.formDetails.message ? ("\n\n--------------------------\nPesan Pelanggan:\n" +_oData.formDetails.message) : null %>
 
 --------------------------
 Detail Order
@@ -674,13 +674,17 @@ Qty        : <%- listItem.qty %>
 --------------------------
 Item Total : <%- _oData.fnMisc.formatAmount(itemTotal *  listItem.qty) %>
 --------------------------
+
+
 <% }); } %>
 <%- _oData.cartStats.totalItems %> Barang   @ <%- _oData.fnMisc.formatAmount(_oData.cartStats.subTotal) %><% var fullTotal = _oData.cartStats.subTotal; if( fullTotal && _oData.cartStats.totalShippingCharges ) { fullTotal += _oData.cartStats.totalShippingCharges; %>
 Pengiriman : <%- _oData.fnMisc.formatAmount( _oData.cartStats.totalShippingCharges ) %> <% } %> <% if( _oData.cartStats.totalTaxes ) { fullTotal += _oData.cartStats.totalTaxes; %>
 Pajak      : <%- _oData.fnMisc.formatAmount( _oData.cartStats.totalTaxes ) %> <% } %>
 --------------------------
 
-Total Orderan : <%- _oData.fnMisc.fullFormatAmount(fullTotal) %>
+Total Orderan  
+
+             <%- _oData.fnMisc.fullFormatAmount(fullTotal) %>
 
     
 Terima Kasih
