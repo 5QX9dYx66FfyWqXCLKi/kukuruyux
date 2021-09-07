@@ -229,7 +229,7 @@
                             <div class="col-sm-6 col-md-6 col-lg-6">
                                 <div class="input-group">
                                     <div class="input-group-prepend">
-                                        <span class="input-group-text">Kode Pos</span>
+                                        <span class="input-group-text">Propinsi</span>
                                     </div>
                                     <input type="text" name="zip" value="" id="zip" class="form-control required">
                                 </div>
@@ -650,7 +650,7 @@ Type   : <%- _oData.selectedOrderType %><%- _oData.formDetails.table_number ? ("
 Detail Pelanggan
 --------------------------
 <%- _oData.formDetails.fname ? ('Nama   : ' + _oData.formDetails.fname) : null %>
-<%- _oData.formDetails.email ? ("Email  : " + _oData.formDetails.email ): null %><%- _oData.formDetails.mobile_number ? ("\nWA     : " +_oData.formDetails.mobile_number) : null %><%- _oData.formDetails.add ? ("\nAlamat   : " +_oData.formDetails.add) : null %><%- _oData.formDetails.city ? ("\nKota    : " +_oData.formDetails.city) : null %><%- _oData.formDetails.zip ? ("\nZip/Kode Pos : " +_oData.formDetails.zip) : null %><%- _oData.formDetails.country ? ("\nCountry : " +_oData.formDetails.country) : null %><%- _oData.formDetails.message ? ("\n\n--------------------------\nPesan Pelanggan:\n" +_oData.formDetails.message) : null %>
+<%- _oData.formDetails.email ? ("Email  : " + _oData.formDetails.email ): null %><%- _oData.formDetails.mobile_number ? ("\nWA     : " +_oData.formDetails.mobile_number) : null %><%- _oData.formDetails.add ? ("\nAlamat : " +_oData.formDetails.add) : null %><%- _oData.formDetails.city ? ("\nKota   : " +_oData.formDetails.city) : null %><%- _oData.formDetails.zip ? ("\nPropinsi : " +_oData.formDetails.zip) : null %><%- _oData.formDetails.country ? ("\nCountry : " +_oData.formDetails.country) : null %><%- _oData.formDetails.message ? ("\n\n--------------------------\nPesan Pelanggan:\n" +_oData.formDetails.message) : null %>
 
 --------------------------
 Detail Order
@@ -684,7 +684,7 @@ Pajak      : <%- _oData.fnMisc.formatAmount( _oData.cartStats.totalTaxes ) %> <%
 
 Total Orderan  
 
-             <%- _oData.fnMisc.fullFormatAmount(fullTotal) %>
+           : <%- _oData.fnMisc.fullFormatAmount(fullTotal) %>
 
     
 Terima Kasih
